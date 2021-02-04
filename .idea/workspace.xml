@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e256a6fc-2032-41e8-b3c6-5c8cbab57110" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="geek" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Program\.m2\repository" />
+        <option name="mavenHome" value="D:/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="C:\Users\marun\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hU7EzsDe6KMQgHIoRbLX18gP7n" />
+  <component name="ProjectViewState">
+    <option name="compactDirectories" value="true" />
+    <option name="flattenModules" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="D:/AndroidKiller_v1.3.1/other-plugin/showdex/sources" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.1484375" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="main.java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.leetCode643">
+    <configuration name="LeetCode224" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.leetCode.LeetCode224" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.leetCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeetCode424" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.leetCode.LeetCode424" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.leetCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeetCode480" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.leetCode.LeetCode480" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.leetCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeetCode844" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.leetCode.LeetCode844" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.leetCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetCode643" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.leetCode.leetCode643" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.leetCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DesignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="design" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="mr.design.DesignApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.leetCode643" />
+        <item itemvalue="Application.LeetCode480" />
+        <item itemvalue="Application.LeetCode224" />
+        <item itemvalue="Application.LeetCode424" />
+        <item itemvalue="Application.LeetCode844" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpringBeansView">
+    <option name="beanDetailsProportion" value="0.3" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e256a6fc-2032-41e8-b3c6-5c8cbab57110" name="Default Changelist" comment="" />
+      <created>1600053709882</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600053709882</updated>
+      <workItem from="1600053711139" duration="8448000" />
+      <workItem from="1603248860802" duration="17483000" />
+      <workItem from="1603766268341" duration="50109000" />
+      <workItem from="1603961093889" duration="6881000" />
+      <workItem from="1604042677345" duration="27868000" />
+      <workItem from="1604371560159" duration="24876000" />
+      <workItem from="1604972437342" duration="75000" />
+      <workItem from="1605260564041" duration="629000" />
+      <workItem from="1605318939057" duration="2781000" />
+      <workItem from="1605512432977" duration="295000" />
+      <workItem from="1605597066079" duration="5082000" />
+      <workItem from="1606121484781" duration="1206000" />
+      <workItem from="1609813248514" duration="2847000" />
+      <workItem from="1610089764226" duration="15000" />
+      <workItem from="1610351992170" duration="8240000" />
+      <workItem from="1611109756839" duration="19000" />
+      <workItem from="1611800094327" duration="83347000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#Project_Structure" timestamp="1604390414679">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604390414679" />
+    <state x="2685" y="233" key="#com.intellij.ide.util.MemberChooser" timestamp="1612346117886">
+      <screen x="1920" y="4" width="1920" height="1040" />
+    </state>
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604475387829" />
+    <state x="2685" y="233" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.4.1920.1040@1920.4.1920.1040" timestamp="1612346117886" />
+    <state x="2610" y="270" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1612324541076">
+      <screen x="1920" y="4" width="1920" height="1040" />
+    </state>
+    <state x="2610" y="270" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1040/1920.4.1920.1040@1920.4.1920.1040" timestamp="1612324541076" />
+    <state x="2635" y="226" key="#xdebugger.evaluate" timestamp="1612409708639">
+      <screen x="1920" y="4" width="1920" height="1040" />
+    </state>
+    <state x="2635" y="226" key="#xdebugger.evaluate/0.0.1920.1040/1920.4.1920.1040@1920.4.1920.1040" timestamp="1612409708639" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1603866626555">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603866626555" />
+    <state x="601" y="226" key="FileChooserDialogImpl" timestamp="1604972465787">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="601" y="226" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604972465787" />
+    <state width="1877" height="313" key="GridCell.Tab.0.bottom" timestamp="1612420429029">
+      <screen x="1920" y="4" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="415" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604473117999" />
+    <state width="1877" height="313" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.4.1920.1040@1920.4.1920.1040" timestamp="1612420429029" />
+    <state width="1877" height="313" key="GridCell.Tab.0.center" timestamp="1612420429029">
+      <screen x="1920" y="4" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="415" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604473117999" />
+    <state width="1877" height="313" key="GridCell.Tab.0.center/0.0.1920.1040/1920.4.1920.1040@1920.4.1920.1040" timestamp="1612420429029" />
+    <state width="1877" height="313" key="GridCell.Tab.0.left" timestamp="1612420429029">
+      <screen x="1920" y="4" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="415" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604473117999" />
+    <state width="1877" height="313" key="GridCell.Tab.0.left/0.0.1920.1040/1920.4.1920.1040@1920.4.1920.1040" timestamp="1612420429029" />
+    <state width="1877" height="313" key="GridCell.Tab.0.right" timestamp="1612420429029">
+      <screen x="1920" y="4" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="415" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604473117999" />
+    <state width="1877" height="313" key="GridCell.Tab.0.right/0.0.1920.1040/1920.4.1920.1040@1920.4.1920.1040" timestamp="1612420429029" />
+    <state width="1877" height="313" key="GridCell.Tab.1.bottom" timestamp="1612420429029">
+      <screen x="1920" y="4" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="415" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604473118000" />
+    <state width="1877" height="313" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.4.1920.1040@1920.4.1920.1040" timestamp="1612420429029" />
+    <state width="1877" height="313" key="GridCell.Tab.1.center" timestamp="1612420429029">
+      <screen x="1920" y="4" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="415" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604473118000" />
+    <state width="1877" height="313" key="GridCell.Tab.1.center/0.0.1920.1040/1920.4.1920.1040@1920.4.1920.1040" timestamp="1612420429029" />
+    <state width="1877" height="313" key="GridCell.Tab.1.left" timestamp="1612420429029">
+      <screen x="1920" y="4" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="415" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604473118000" />
+    <state width="1877" height="313" key="GridCell.Tab.1.left/0.0.1920.1040/1920.4.1920.1040@1920.4.1920.1040" timestamp="1612420429029" />
+    <state width="1877" height="313" key="GridCell.Tab.1.right" timestamp="1612420429029">
+      <screen x="1920" y="4" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="415" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604473118000" />
+    <state width="1877" height="313" key="GridCell.Tab.1.right/0.0.1920.1040/1920.4.1920.1040@1920.4.1920.1040" timestamp="1612420429029" />
+    <state width="1877" height="318" key="GridCell.Tab.2.bottom" timestamp="1604472975232">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="318" key="GridCell.Tab.2.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604472975232" />
+    <state width="1877" height="318" key="GridCell.Tab.2.center" timestamp="1604472975232">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="318" key="GridCell.Tab.2.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604472975232" />
+    <state width="1877" height="318" key="GridCell.Tab.2.left" timestamp="1604472975232">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="318" key="GridCell.Tab.2.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604472975232" />
+    <state width="1877" height="318" key="GridCell.Tab.2.right" timestamp="1604472975232">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="318" key="GridCell.Tab.2.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604472975232" />
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1604475184733">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604475184733" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1603957825750">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603957825750" />
+    <state x="2560" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1611109770111">
+      <screen x="1920" y="4" width="1920" height="1040" />
+    </state>
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1605512433704" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.4.1920.1040@0.0.1920.1040" timestamp="1610089766826" />
+    <state x="2560" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.4.1920.1040@1920.4.1920.1040" timestamp="1611109770111" />
+    <state x="636" y="253" width="647" height="534" key="find.popup" timestamp="1603790607778">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="636" y="253" width="647" height="534" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603790607778" />
+    <state x="593" y="143" width="874" height="897" key="new project wizard" timestamp="1603249784177">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="593" y="143" width="874" height="897" key="new project wizard/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603249784177" />
+    <state x="2581" y="151" key="refactoring.ChangeSignatureDialog" timestamp="1612324532850">
+      <screen x="1920" y="4" width="1920" height="1040" />
+    </state>
+    <state x="2581" y="151" key="refactoring.ChangeSignatureDialog/0.0.1920.1040/1920.4.1920.1040@1920.4.1920.1040" timestamp="1612324532850" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1603874282553">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603874282553" />
+    <state x="2543" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1612410085942">
+      <screen x="1920" y="4" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604302915797" />
+    <state x="2543" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.4.1920.1040@1920.4.1920.1040" timestamp="1612410085942" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algorithm/src/main/java/leetCode/LeetCode480.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="((CglibMethodInvocation)((MethodInvocationProceedingJoinPoint)joinPoint).methodInvocation).methodProxy" custom="org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint,org.springframework.aop.framework.CglibAopProxy.CglibMethodInvocation" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
