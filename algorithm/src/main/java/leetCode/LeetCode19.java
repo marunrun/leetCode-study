@@ -20,6 +20,7 @@ public class LeetCode19 {
     }
 
     public static ListNode removeNthFromEnd(ListNode head, int n) {
+
         if (head == null) return null;
         head = new ListNode(0, head);
         ArrayList<ListNode> list = new ArrayList<>();
