@@ -4,6 +4,18 @@ import java.util.Arrays;
 
 public class sort {
 
+    public static void main(String[] args) {
+        int[] array = {
+                4, 5, 6, 1, 3, 2
+        };
+//        int[] ints = quickSort(array, 0, array.length - 1);
+//        int[] ints = bubbleSort(array);
+//        int[] ints = insertionSort(array);
+        int[] tmp = new int[array.length];
+        mergeSort(array,0,array.length -1,tmp);
+        System.out.println(Arrays.toString(array));
+    }
+
     /**
      * 冒泡排序
      *
@@ -38,32 +50,31 @@ public class sort {
      * @return 排序后的数组
      */
     public static int[] insertionSort(int[] array) {
-        int count = array.length;
-        if (count < 1) return array;
-        for (int i = 1; i < count; i++) {
+        int len = array.length;
+        if (len == 1) return array;
+        for (int i = 1; i < len; i++) {
             int value = array[i];
             int j = i - 1;
-
-            for (; j >= 0; --j) {
-                // 依次比较
+            for (; j >= 0; j--) {
                 if (array[j] > value) {
-                    // 数据搬移
-                    array[j + 1] = array[j];
+                    array[ j + 1] = array[j];
                 } else {
                     break;
                 }
             }
-            // 插入数据
-            array[j + 1] = value;
+
+            array[ j + 1] = value;
         }
+
         return array;
     }
 
     /**
      * 快速排序
+     *
      * @param array 原始数据
      * @param start 数组开始下标
-     * @param end 数据结束下标
+     * @param end   数据结束下标
      * @return 处理后的数据
      */
     public static int[] quickSort(int[] array, int start, int end) {
@@ -78,7 +89,7 @@ public class sort {
         int pivot = array[end];
         int i = start;
 
-        for (int j = start; j < end ; j++) {
+        for (int j = start; j < end; j++) {
             if (array[j] < pivot) {
                 swap(array, i, j);
                 i++;
@@ -95,11 +106,39 @@ public class sort {
         array[b] = temp;
     }
 
-    public static void main(String[] args) {
-        int[] array = {8, 7, 6, 5, 4, 3, 2, 1};
-        int[] ints = quickSort(array, 0, array.length - 1);
-//        int[] ints = bubbleSort(array);
-//        int[] ints = insertionSort(array);
-        System.out.println(Arrays.toString(ints));
+    /**
+     * 归并排序
+     */
+    private static void mergeSort(int[] arr,int left,int right,int[] tmp){
+        if (left < right) {
+            int mid = (left + right) / 2;
+            mergeSort(arr,left,mid,tmp);
+            mergeSort(arr,mid+1,right,tmp);
+            merge(arr,left,mid,right,tmp);
+        }
+    }
+
+    private static void merge(int[] arr,int left,int mid,int right,int[] temp){
+        int i = left;//左序列指针
+        int j = mid+1;//右序列指针
+        int t = 0;//临时数组指针
+        while (i<=mid && j<=right){
+            if(arr[i]<=arr[j]){
+                temp[t++] = arr[i++];
+            }else {
+                temp[t++] = arr[j++];
+            }
+        }
+        while(i<=mid){//将左边剩余元素填充进temp中
+            temp[t++] = arr[i++];
+        }
+        while(j<=right){//将右序列剩余元素填充进temp中
+            temp[t++] = arr[j++];
+        }
+        t = 0;
+        //将temp中的元素全部拷贝到原数组中
+        while(left <= right){
+            arr[left++] = temp[t++];
+        }
     }
 }
