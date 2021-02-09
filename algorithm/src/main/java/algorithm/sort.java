@@ -1,4 +1,4 @@
-package main.java.leetCode;
+package main.java.algorithm;
 
 import java.util.Arrays;
 
@@ -71,11 +71,6 @@ public class sort {
 
     /**
      * 快速排序
-     *
-     * @param array 原始数据
-     * @param start 数组开始下标
-     * @param end   数据结束下标
-     * @return 处理后的数据
      */
     public static int[] quickSort(int[] array, int start, int end) {
         if (start >= end) return array;
@@ -85,6 +80,9 @@ public class sort {
         return array;
     }
 
+    /**
+     * 分割数组
+     */
     protected static int partition(int[] array, int start, int end) {
         int pivot = array[end];
         int i = start;
