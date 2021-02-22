@@ -5,15 +5,10 @@ import java.util.Arrays;
 public class sort {
 
     public static void main(String[] args) {
-        int[] array = {
-                4, 5, 6, 1, 3, 2
-        };
-//        int[] ints = quickSort(array, 0, array.length - 1);
-//        int[] ints = bubbleSort(array);
-//        int[] ints = insertionSort(array);
-        int[] tmp = new int[array.length];
-        mergeSort(array,0,array.length -1,tmp);
-        System.out.println(Arrays.toString(array));
+        int[] ints = insertionSort(new int[]{
+            5,4,3,2,1
+        });
+        System.out.println(Arrays.toString(ints));
     }
 
     /**
@@ -46,32 +41,43 @@ public class sort {
     /**
      * 插入排序
      *
-     * @param array 原始数组
+     * @param a 原始数组
      * @return 排序后的数组
      */
-    public static int[] insertionSort(int[] array) {
-        int len = array.length;
-        if (len == 1) return array;
-        for (int i = 1; i < len; i++) {
-            int value = array[i];
-            int j = i - 1;
-            for (; j >= 0; j--) {
-                if (array[j] > value) {
-                    array[ j + 1] = array[j];
-                } else {
+    public static int[] insertionSort(int[] a) {
+//        int len = array.length;
+//        if (len == 1) return array;
+//        for (int i = 1; i < len; i++) {
+//            int value = array[i];
+//            int j = i - 1;
+//            for (; j >= 0; j--) {
+//                if (array[j] > value) {
+//                    array[ j + 1] = array[j];
+//                } else {
+//                    break;
+//                }
+//            }
+//
+//            array[ j + 1] = value;
+//        }
+//
+//        return array;
+        int left = 0;
+        int right = a.length -1 ;
+        for (int i = left, j = i; i < right; j = ++i) {
+            int ai = a[i + 1];
+            while (ai < a[j]) {
+                a[j + 1] = a[j];
+                if (j-- == left) {
                     break;
                 }
             }
-
-            array[ j + 1] = value;
+            a[j + 1] = ai;
         }
-
-        return array;
+        return a;
     }
 
-    /**
-     * 快速排序
-     */
+    //region 快速排序
     public static int[] quickSort(int[] array, int start, int end) {
         if (start >= end) return array;
         int q = partition(array, start, end);
@@ -103,10 +109,9 @@ public class sort {
         array[a] = array[b];
         array[b] = temp;
     }
+    //endregion
 
-    /**
-     * 归并排序
-     */
+    //region 归并排序
     private static void mergeSort(int[] arr,int left,int right,int[] tmp){
         if (left < right) {
             int mid = (left + right) / 2;
@@ -139,4 +144,5 @@ public class sort {
             arr[left++] = temp[t++];
         }
     }
+    //endregion
 }
