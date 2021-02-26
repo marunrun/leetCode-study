@@ -26,8 +26,7 @@ public class LeetCode867 {
      * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
      */
     public static int[][] transpose(int[][] matrix) {
-        int n = matrix.length;
-        int m = matrix[0].length;
+        int n = matrix.length,m = matrix[0].length;
         int[][] res = new int[m][n];
 
         for (int i = 0; i < m; i++) {
