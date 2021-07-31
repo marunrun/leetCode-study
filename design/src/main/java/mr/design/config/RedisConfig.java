@@ -9,11 +9,13 @@ import org.springframework.data.redis.serializer.StringRedisSerializer;
 
 @Configuration
 public class RedisConfig {
+
     @Autowired
     private RedisTemplate redisTemplate;
 
     @Bean
     public RedisTemplate redisTemplate(){
+
         redisTemplate.setKeySerializer(new StringRedisSerializer());
 
         redisTemplate.setValueSerializer(new GenericJackson2JsonRedisSerializer());

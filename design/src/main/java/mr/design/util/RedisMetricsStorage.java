@@ -47,7 +47,7 @@ public class RedisMetricsStorage implements MetricsStorage {
     public Map<String, List<RequestInfo>> getRequestInfos(long startTimestamp, long endTimestamp) {
         HashMap<String, List<RequestInfo>> requestInfos = new HashMap<>();
 
-        Cursor scan = RedisHelper.scan(redisTemplate, STORAGE_KEY + "*", 1000);
+        Cursor<Map<String, RequestInfo>> scan = RedisHelper.scan(redisTemplate, STORAGE_KEY + "*", 1000);
 
         while (scan.hasNext()) {
             String key = scan.next().toString();
