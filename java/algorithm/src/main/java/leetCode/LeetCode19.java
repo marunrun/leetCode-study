@@ -16,7 +16,7 @@ public class LeetCode19 {
     public static void main(String[] args) {
         ListNode listNode = new ListNode(1);
 
-        removeNthFromEnd(listNode, 1);
+        removeNthFromEnd2(listNode, 1);
     }
 
     public static ListNode removeNthFromEnd(ListNode head, int n) {

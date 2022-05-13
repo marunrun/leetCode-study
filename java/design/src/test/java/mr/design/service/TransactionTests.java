@@ -1,9 +1,7 @@
 package mr.design.service;
 
-import mr.design.enums.STATUS;
-import org.junit.jupiter.api.Assertions;
+import mr.design.enums.Status;
 import org.junit.jupiter.api.Test;
-import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.util.SimpleIdGenerator;
@@ -11,8 +9,6 @@ import org.springframework.util.SimpleIdGenerator;
 import javax.transaction.InvalidTransactionException;
 
 import java.util.Calendar;
-import java.util.Collections;
-import java.util.Enumeration;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -53,7 +49,7 @@ public class TransactionTests {
 //        Mockito.doReturn(null).when(transaction.getWalletRpcService()).moveMoney("1",1L,1L,1.1);
         Mockito.when(transaction.getWalletRpcService().moveMoney("1",1L,1L,1.1)).thenReturn(null);
         boolean execute = transaction.execute();
-        assertEquals(STATUS.FAILED, transaction.getStatus());
+        assertEquals(Status.FAILED, transaction.getStatus());
         assertFalse(execute);
     }
 }

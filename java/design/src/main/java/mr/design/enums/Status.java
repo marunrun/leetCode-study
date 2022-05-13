@@ -1,6 +1,6 @@
 package mr.design.enums;
 
-public enum STATUS {
+public enum Status {
     TO_BE_EXECUTED,
     EXECUTED,
     EXPIRED,
